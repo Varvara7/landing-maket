@@ -110,6 +110,7 @@
 .text {
     line-height: 28px;
     padding-top: 10px;
+    margin: 0;
 }
 
 .org-ssulka {
@@ -167,4 +168,29 @@
     border: 2px solid #FF0000;
     border-radius: 6px;
 }
+
+.info-page2 {
+    display: flex;
+    width: 100%;    
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.info-razdel {
+    width: 100%;
+    max-width: 300px;
+    padding: 0 20px 30px;
+}
+
+.icon-page2 {
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+.razdel {
+    font-size: 24px;
+    letter-spacing: 0.21px;
+    margin: 0;
+}
+
 
