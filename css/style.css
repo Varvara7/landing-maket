@@ -192,6 +192,14 @@
     font-size: 24px;
     letter-spacing: 0.21px;
     margin: 0;
+    padding-bottom: 6px;
 }
+
+.text-page2 {
+    line-height: 28px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
 
 
