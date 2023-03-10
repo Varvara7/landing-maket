@@ -71,7 +71,7 @@
 
 /*header*/
 
-.header-page {
+.page-header {
     display: flex;
     flex-direction: column;
     background-color: #F6F2F2;
@@ -97,14 +97,14 @@
     border: 1px solid #000000;
 }
 
-.header-nav {
+.nav-header {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     list-style: none;
 }
 
-.header-menu {
+.menu-header {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -138,7 +138,7 @@
 
 /*section 1*/
 
-.org {
+.intro-page {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -146,12 +146,12 @@
     padding-top: 90px;
 }
 
-.org-text {    
+.intro-content {    
     width: 100%;
     max-width: 618px;
 }
 
-.header-h1 {
+.intro-heading {
     margin: 0;
     font-size: 60px;
     line-height: 72px;
@@ -160,17 +160,17 @@
     letter-spacing: 1.5px;
 }
 
-.span-h1 {
+.intro-heading-big {
     letter-spacing: 6px;
 }
 
-.text {
+.intro-text {
     max-width: 544px;
     line-height: 28px;
     padding-bottom: 50px;
 }
 
-.org-ssulka {
+.intro-link {
     display: block;
     width: 227px;
     color: #FFFFFF;
@@ -183,7 +183,7 @@
     border-radius: 6px;
 }
 
-.org-video {
+.intro-video {
     position: relative;
     top: 16px;
     width: 100%;
@@ -196,12 +196,12 @@
 
 /*section 2*/
 
-.page-2 {
+.page-article {
     display: flex;
     flex-direction: column;    
 }
 
-.page-h2 {
+.intro-heading-h2 {
     margin: 0;
     font-size: 45px;
     line-height: 55px;    
@@ -210,7 +210,7 @@
     padding-bottom: 20px;
 }
 
-.learn {
+.intro-link_learn {
     display: block;
     width: 227px;
     color: #FF2D2D;
@@ -224,31 +224,31 @@
     border-radius: 6px;
 }
 
-.info-page2 {
+.info-article {
     display: flex;
     flex-wrap: wrap;
     width: 100%;    
     max-width: 600px;
 }
 
-.info-razdel {
+.article {
     width: 100%;
     max-width: 300px;
     padding: 10px;
 }
 
-.icon-page2 {
+.article-icon {
     padding-bottom: 20px;
 }
 
-.razdel {
+.article-heading {
     font-size: 24px;
     letter-spacing: 0.21px;
     margin: 0;
     padding-bottom: 6px;
 }
 
-.text-page2 {
+.article-text {
     line-height: 28px;
     margin: 0;
     padding-bottom: 20px;
