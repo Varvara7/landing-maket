@@ -210,7 +210,7 @@
     padding-bottom: 20px;
 }
 
-.intro-link_learn {
+.intro-link-learn {
     display: block;
     width: 227px;
     color: #FF2D2D;
@@ -254,5 +254,22 @@
     padding-bottom: 20px;
 }
 
+/*media*/
+@media (max-width: 466px) {
+
+}
+
+@media (max-width: 615px) {
+    .intro-heading {
+        font-size: 50px;
+    }
+    .intro-heading-big {
+        letter-spacing: normal;
+    }
+}
+
+@media (max-width: 1190px) {
+
+}
 
 
