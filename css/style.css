@@ -71,7 +71,7 @@
 
 /*header*/
 
-.header-page {
+.page-header {
     display: flex;
     flex-direction: column;
     background-color: #F6F2F2;
@@ -80,7 +80,6 @@
 
 .container {
     width: 100%;
-    flex-grow: 1;    
     max-width: 1252px;
     min-width: 350px;    
     margin: 0 auto;
@@ -195,9 +194,14 @@
 
 /*section 2*/
 
-.services-page {
+.page-services {
     display: flex;
-    flex-direction: column;    
+}
+
+.services-content {
+    padding: 90px 30px 110px 0;
+    width: 100%;
+    max-width: 618px;
 }
 
 .services-heading {
@@ -206,7 +210,7 @@
     line-height: 55px;    
     text-transform: uppercase;
     letter-spacing: 0.42px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .intro-link-learn {
@@ -226,8 +230,8 @@
 .services-info {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;    
-    max-width: 600px;
+    justify-content: space-between;
+    padding-top: 90px;
 }
 
 .service {
@@ -240,28 +244,36 @@
     font-size: 24px;
     letter-spacing: 0.27px;
     margin: 0;
+    padding-bottom: 10px;
 }
 
 .service-heading::before {
     display: block;
     margin-bottom: 22px;
-    width: 41px;
 }
 
 .service-heading_manage::before {
     content: url(../img/disk.svg);
+    width: 38px;
+    height: 38px;
 }
 
 .service-heading_ui::before {
     content: url(../img/pen.svg);
+    width: 38px;
+    height: 40px;
 }
 
 .service-heading_logo::before {
     content: url(../img/diamond.svg);
+    width: 44px;
+    height: 36px;
 }
 
 .service-heading_anim::before {
     content: url(../img/car.svg);
+    width: 42px;
+    height: 36px;
 }
 
 .service-text {
@@ -284,7 +296,7 @@
     }
 }
 
-@media (max-width: 1238px) {
+@media (max-width: 1219px) {
     
 }
 
