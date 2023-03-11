@@ -71,7 +71,7 @@
 
 /*header*/
 
-.page-header {
+.header-page {
     display: flex;
     flex-direction: column;
     background-color: #F6F2F2;
@@ -97,14 +97,14 @@
     border: 1px solid #000000;
 }
 
-.nav-header {
+.header-nav {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     list-style: none;
 }
 
-.menu-header {
+.header-menu {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -167,7 +167,7 @@
 .intro-text {
     max-width: 544px;
     line-height: 28px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .intro-link {
@@ -184,10 +184,9 @@
 }
 
 .intro-video {
-    position: relative;
-    top: 16px;
     width: 100%;
     max-width: 551px;
+    margin-top: 10px;
     object-fit: contain;
     background: #000000;
     mix-blend-mode: normal;
@@ -196,12 +195,12 @@
 
 /*section 2*/
 
-.page-article {
+.services-page {
     display: flex;
     flex-direction: column;    
 }
 
-.intro-heading-h2 {
+.services-heading {
     margin: 0;
     font-size: 42px;
     line-height: 55px;    
@@ -224,31 +223,48 @@
     border-radius: 6px;
 }
 
-.info-article {
+.services-info {
     display: flex;
     flex-wrap: wrap;
     width: 100%;    
     max-width: 600px;
 }
 
-.article {
+.service {
     width: 100%;
     max-width: 300px;
     padding: 10px;
 }
 
-.article-icon {
-    padding-bottom: 20px;
-}
-
-.article-heading {
+.service-heading {
     font-size: 24px;
-    letter-spacing: 0.21px;
+    letter-spacing: 0.27px;
     margin: 0;
-    padding-bottom: 6px;
 }
 
-.article-text {
+.service-heading::before {
+    display: block;
+    margin-bottom: 22px;
+    width: 41px;
+}
+
+.service-heading_manage::before {
+    content: url(../img/disk.svg);
+}
+
+.service-heading_ui::before {
+    content: url(../img/pen.svg);
+}
+
+.service-heading_logo::before {
+    content: url(../img/diamond.svg);
+}
+
+.service-heading_anim::before {
+    content: url(../img/car.svg);
+}
+
+.service-text {
     line-height: 28px;
     margin: 0;
     padding-bottom: 20px;
@@ -268,8 +284,8 @@
     }
 }
 
-@media (max-width: 1190px) {
-
+@media (max-width: 1238px) {
+    
 }
 
 
