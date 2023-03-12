@@ -290,6 +290,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding-top: 90px;
 }
 
@@ -303,8 +304,45 @@
 .products-text {
     max-width: 536px;
     line-height: 28px;
-    text-align: center;
 }
+
+.products-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-menu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.menu-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.list-link {
+    padding: 26px;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list-link:hover {
+    color:  #FF2D2D;
+}
+
+.active-list-link {
+    color: #FF2D2D;
+}
+
+
 
 /*media*/
 @media (max-width: 466px) {
