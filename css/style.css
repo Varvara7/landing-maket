@@ -284,6 +284,28 @@
     padding-bottom: 20px;
 }
 
+/*section 3*/
+
+.page-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.products-heading {
+    margin: 0;
+    font-size: 42px;        
+    text-transform: uppercase;
+    letter-spacing: 0.38px;
+}
+
+.products-text {
+    max-width: 536px;
+    line-height: 28px;
+    text-align: center;
+}
+
 /*media*/
 @media (max-width: 466px) {
 
