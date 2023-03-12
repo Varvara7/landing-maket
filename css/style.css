@@ -196,6 +196,7 @@
 
 .page-services {
     display: flex;
+    border-bottom: 3px solid #ECECEC;
 }
 
 .services-content {
@@ -232,6 +233,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 90px;
+    padding-bottom: 40px;
 }
 
 .service {
