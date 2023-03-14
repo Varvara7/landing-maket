@@ -335,7 +335,7 @@
 
 .product:hover {
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.3s;
     transform: scale(1.1);
 }
 
