@@ -183,6 +183,11 @@
     border-radius: 6px;    
 }
 
+.page__intro__link:hover {
+    transition: all 0.2s;
+    transform: scale(1.1);
+}
+
 .page__intro__video {
     width: 100%;
     max-width: 551px;
