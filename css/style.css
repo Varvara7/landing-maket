@@ -164,7 +164,7 @@
     letter-spacing: 6px;
 }
 
-.page__intro__text {
+.page__text {
     max-width: 544px;
     line-height: 28px;
     padding-bottom: 40px;
@@ -206,7 +206,7 @@
     max-width: 618px;
 }
 
-.page__services__heading {
+.page__heading {
     margin: 0;
     font-size: 42px;
     line-height: 55px;    
@@ -214,6 +214,7 @@
     letter-spacing: 0.42px;
     padding-bottom: 10px;
 }
+
 
 .learn {
     color: #FF2D2D;    
@@ -281,19 +282,12 @@
     padding-top: 90px;
 }
 
-.page__products__heading {
-    margin: 0;
-    font-size: 42px;        
-    text-transform: uppercase;
+.heading-products {
     letter-spacing: 0.38px;
 }
 
-.page__products__text {
-    max-width: 536px;
-    line-height: 28px;
-}
 
-.page__products__line {
+.page__line {
     border: 1px solid #FF2D2D;
     width: 134px;
 }
@@ -344,6 +338,24 @@
     cursor: pointer;
     transition: all 0.5s;
     transform: scale(1.1);
+}
+
+/*section 4*/
+
+.page-team {
+
+}
+
+.team {
+
+}
+
+.heading-team {
+    letter-spacing: 0.38px;
+}
+
+.text-team {
+    max-width: 480px;
 }
 
 
