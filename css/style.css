@@ -200,7 +200,7 @@
     border-bottom: 2px solid #ECECEC;
 }
 
-.page__services__content {
+.page__content {
     padding: 90px 30px 110px 0;
     width: 100%;
     max-width: 618px;
@@ -342,8 +342,11 @@
 
 /*section 4*/
 
-.page-team {
-
+.content-team {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 478px;
 }
 
 .team {
@@ -354,8 +357,9 @@
     letter-spacing: 0.38px;
 }
 
-.text-team {
-    max-width: 480px;
+
+.line-team {
+
 }
 
 
