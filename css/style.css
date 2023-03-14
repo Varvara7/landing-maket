@@ -215,7 +215,6 @@
     padding-bottom: 10px;
 }
 
-
 .learn {
     color: #FF2D2D;    
     background-color: #FFFFFF;
@@ -342,24 +341,25 @@
 
 /*section 4*/
 
-.content-team {
+.page__team {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 478px;
 }
 
-.team {
-
+.content-team {
+    max-width: 478px;
 }
 
 .heading-team {
     letter-spacing: 0.38px;
 }
 
+.text-team {
+    padding-bottom: 20px;
+}
 
 .line-team {
-
+    margin: 0;
 }
 
 
