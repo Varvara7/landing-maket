@@ -381,6 +381,10 @@
     .page__intro__heading-big {
         letter-spacing: normal;
     }
+
+    .service {
+        max-width: 250px;
+    }
 }
 
 @media (max-width: 1219px) {
@@ -390,7 +394,5 @@
 
     .page__services__info {
         padding: 0 0 40px 0;
-}
-
-
+    }
 }
