@@ -149,7 +149,7 @@
 .page__intro__content {    
     width: 100%;
     max-width: 618px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .page__intro__heading {
@@ -207,7 +207,7 @@
 }
 
 .page__content {
-    padding: 90px 30px 110px 0;
+    padding: 90px 30px 50px 0;
     width: 100%;
     max-width: 618px;
 }
@@ -290,7 +290,6 @@
     letter-spacing: 0.38px;
 }
 
-
 .page__line {
     border: 1px solid #FF2D2D;
     width: 134px;
@@ -368,11 +367,11 @@
 }
 
 
-
-
 /*media*/
 @media (max-width: 466px) {
-
+    .page__intro__heading-big {
+        word-wrap: break-word;
+    }
 }
 
 @media (max-width: 615px) {
