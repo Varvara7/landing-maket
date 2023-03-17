@@ -368,16 +368,18 @@
 }
 
 
+
+
 /*media*/
 @media (max-width: 466px) {
 
 }
 
 @media (max-width: 615px) {
-    .intro-heading {
+    .page__intro__heading {
         font-size: 50px;
     }
-    .intro-heading-big {
+    .page__intro__heading-big {
         letter-spacing: normal;
     }
 }
