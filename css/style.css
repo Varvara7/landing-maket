@@ -111,17 +111,17 @@
     margin: 0;
 }
 
-.header__menu__item {
+.header__item {
     display: flex;
     align-items: stretch;
     justify-content: center;
 }
 
-.header__menu__item:hover {
+.header__item:hover {
     background-color:#FF3F40;        
 }
 
-.header__menu__link {
+.header__link {
     display: flex;  
     align-items: center;
     margin: 0;
@@ -168,10 +168,10 @@
 .page__text {
     max-width: 544px;
     line-height: 28px;
-    padding-bottom: 40px;
+    margin-bottom: 56px;
 }
 
-.page__intro__link {
+.button {
     display: block;
     width: 227px;
     color: #FFFFFF;
@@ -184,7 +184,7 @@
     border-radius: 6px;    
 }
 
-.page__intro__link:hover {
+.button:hover {
     transition: all 0.2s;
     transform: scale(1.1);
 }
@@ -203,11 +203,12 @@
 
 .page__services {
     display: flex;
+    padding-top: 90px;
+    padding-bottom: 50px;
     border-bottom: 2px solid #ECECEC;
 }
 
 .page__content {
-    padding: 90px 30px 50px 0;
     width: 100%;
     max-width: 618px;
 }
@@ -218,7 +219,6 @@
     line-height: 55px;    
     text-transform: uppercase;
     letter-spacing: 0.42px;
-    padding-bottom: 10px;
 }
 
 .learn {
@@ -230,8 +230,6 @@
 .page__services__info {
     display: flex;
     flex-wrap: wrap;       
-    padding-top: 90px;
-    padding-bottom: 40px;
 }
 
 .service {
@@ -295,18 +293,18 @@
     width: 134px;
 }
 
-.page__filter {
+.filters {
     display: flex;
     flex-wrap: wrap;
-    padding: 60px 0 40px 0;
+    padding: 40px 0 20px 0;
 }
 
-.page__item {
+.filters__item {
     list-style-type: none;
+    padding: 20px;
 }
 
-.page__link {
-    padding: 26px;
+.filters__link {
     color: #000000;
     font-size: 22px;
     font-weight: 600;
@@ -316,27 +314,28 @@
     text-transform: uppercase;
 }
 
-.page__link:hover {
+.filters__link:hover {
     color:  #FF2D2D;
 }
 
-.page__link_activ {
+.filters__link_activ {
     color: #FF2D2D;
 }
 
 .products {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.product {
-    width: 100%;
-    max-width: 302px;
+.products__foto {
+    width: 302px;
     height: 294px;
     object-fit: cover;
-    padding: 8px;
+    padding: 10px;
 }
 
-.product:hover {
+.products__foto:hover {
     cursor: pointer;
     transition: all 0.3s;
     transform: scale(1.1);
@@ -348,6 +347,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-top: 100px;
 }
 
 .content-team {
@@ -356,10 +356,6 @@
 
 .heading-team {
     letter-spacing: 0.38px;
-}
-
-.text-team {
-    padding-bottom: 20px;
 }
 
 .line-team {
