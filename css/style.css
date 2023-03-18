@@ -292,11 +292,11 @@
     margin-bottom: 30px;
 }
 
-.page__products__content {
+.content {
     position: relative;
 }
 
-.page__products__content::after {
+.content::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -376,13 +376,7 @@
     margin-bottom: 36px;
 }
 
-.page__products__content_meet::after {
-    display: block;
-    position: absolute;
-    width: 100%;
-    max-width: 134px;
-    content: '';
-    border-bottom: 1px solid #FF2D2D;
+.content_team::after {
     left: 0;
     transform: translate(0);
 }
