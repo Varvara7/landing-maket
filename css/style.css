@@ -363,9 +363,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
-    max-width: 1300px;
-    min-width: 350px;
     margin: 0 auto;
     padding: 0 10px 90px 70px;
 }
@@ -376,8 +373,12 @@
 
 .text-team {
     width: 100%;
-    max-width: 478px;
+    max-width: 479px;
     margin-bottom: 36px;
+}
+
+.content_team {
+    width: 100%;
 }
 
 .content_team::after {
@@ -386,27 +387,48 @@
 }
 
 .team {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .team__selected-photo {
-    display: grid;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 322px;
+    height: 462px;
+    margin-right: 50px;
+    object-fit: cover;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     align-self: start;
-    width: 322px;
-    height: 462px;
-    background-color: #FF2D2D;
-    object-fit: cover;
-    margin-right: 50px;
+}
+
+.teams {
+    display: flex;
+    flex-direction: column;
+}
+
+@supports (display: grid) and (display: contents) {
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .teams {
+        display: contents;
+    }
 }
 
 .content-teams {
-    padding-bottom: 40px;
+    position: relative;
+    align-self: start;
+    max-width: 662px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
-
 
 .heading-teams {
     font-size: 30px;
@@ -427,7 +449,11 @@
     padding-right: 38px;
     color: #000000;
     text-decoration: none;
-}   
+}
+
+.team__selected-link:hover {
+    text-decoration: underline;
+}
 
 .members {
     display: flex;
@@ -439,7 +465,7 @@
 
 .member {
     position: relative;
-    margin-top: 16px;
+    margin-top: 58px;
 }
 
 .member:not(:last-child) {
@@ -475,10 +501,19 @@
     object-fit: cover;
 }
 
+
 /*media*/
 @media (max-width: 466px) {
     .page__intro__heading-big {
         word-wrap: break-word;
+    }
+
+    .page__team {
+        padding: 0 45px 90px 45px;
+    }
+    
+    .team__selected-photo {
+        margin: 0;
     }
 }
 
@@ -493,10 +528,6 @@
     .service {
         max-width: 250px;
     }
-
-    .team__selected-photo {
-        margin-bottom: 40px;
-    }
 }
 
 @media (max-width: 1219px) {
@@ -510,6 +541,7 @@
 
     .team {
         display: flex;
-        flex-wrap: wrap;
     }
+
+
 }
