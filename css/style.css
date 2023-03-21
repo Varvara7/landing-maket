@@ -494,6 +494,7 @@
 
 .member:hover > .member__name {
     visibility: visible;
+    cursor: pointer;
 }
 
 .member__photo {
