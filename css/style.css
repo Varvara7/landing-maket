@@ -459,13 +459,14 @@
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
+    margin-top: 40px;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
 
 .member {
     position: relative;
-    margin-top: 58px;
+    margin-top: 18px;
 }
 
 .member:not(:last-child) {
