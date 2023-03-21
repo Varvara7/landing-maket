@@ -426,6 +426,7 @@
     position: relative;
     align-self: start;
     max-width: 662px;
+    padding-bottom: 40px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
@@ -458,8 +459,7 @@
 .members {
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;
-    margin-top: 40px;
+    flex-wrap: wrap;    
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
