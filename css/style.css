@@ -360,11 +360,7 @@
 /*section 4*/
 
 .page__team {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0 10px 90px 70px;
+    padding-bottom: 100px;
 }
 
 .heading-team {
@@ -379,6 +375,7 @@
 
 .content_team {
     width: 100%;
+    margin-bottom: 106px;
 }
 
 .content_team::after {
@@ -503,19 +500,68 @@
     object-fit: cover;
 }
 
+/*section 5*/
+
+.page__subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    background-color: #2D2D2D;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe {
+    padding-top: 120px;
+}
+
+.heading-subscribe {
+    letter-spacing: 1.05px;
+    text-transform: none;
+    color: #FFFFFF;
+}
+
+.text-subscribe {
+    max-width: 100%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.forma {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+.forma__input {
+    display: flex;
+    align-items: center;
+    flex: 0 1 524px;
+    margin: 20px;
+    min-height: 82px;
+    border: none;
+    border-radius: 6px;
+    color: #2C2C2C;
+    background-color: #FFFFFF;
+}
+
+.forma__button {
+    text-transform: uppercase;    
+    font-weight: 700;
+    width: 218px;
+    min-height: 82px;
+    border: none;
+}
+
+
 
 /*media*/
 @media (max-width: 466px) {
     .page__intro__heading-big {
         word-wrap: break-word;
-    }
-
-    .page__team {
-        padding: 0 45px 90px 45px;
-    }
-    
-    .team__selected-photo {
-        margin: 0;
     }
 }
 
@@ -523,6 +569,7 @@
     .page__intro__heading {
         font-size: 50px;
     }
+
     .page__intro__heading-big {
         letter-spacing: normal;
     }
@@ -544,6 +591,4 @@
     .team {
         display: flex;
     }
-
-
 }
