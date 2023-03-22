@@ -549,11 +549,27 @@
 }
 
 .forma__button {
-    text-transform: uppercase;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #FF2D2D;
+    text-transform: uppercase;
+    font-size: 18px;    
     font-weight: 700;
     width: 218px;
     min-height: 82px;
     border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.forma__button:hover {
+    transition: all 0.2s;
+    transform: scale(1.1);
+    color: #FF2D2D;
+    background-color: #2C2C2C;
+    border: 2px solid #FFFFFF;
 }
 
 
