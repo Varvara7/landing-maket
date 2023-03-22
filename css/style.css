@@ -109,9 +109,8 @@
     justify-content: center;
     align-items: stretch;
     min-height: 90px;           
-    background-color: #000000;   
-    opacity: 0.8;
-    border: 1px solid #000000;
+    background-color: #2D2D2D;   
+    border: 1px solid #2D2D2D;
 }
 
 .header__nav {
@@ -570,6 +569,7 @@
     border-radius: 6px;
     color: #2C2C2C;
     background-color: #FFFFFF;
+    padding-left: 38px;
 }
 
 .forma__button {
