@@ -75,6 +75,9 @@
 *::before {
     box-sizing: border-box;
 }
+*::placeholder {
+    color: #000000;
+}
 
 .page {
     display: flex;
@@ -109,8 +112,8 @@
     justify-content: center;
     align-items: stretch;
     min-height: 90px;           
-    background-color: #2D2D2D;   
-    border: 1px solid #2D2D2D;
+    background-color: #313030;   
+    border: 1px solid #313030;
 }
 
 .header__nav {
@@ -581,8 +584,14 @@
     padding: 0;
 }
 
+/*section 6*/
+
+
+/*footer*/
+
 
 /*media*/
+
 @media (max-width: 466px) {
     .page__intro__heading-big {
         word-wrap: break-word;
