@@ -105,10 +105,12 @@
                 <div class="content-teams">    
                     <h3 class="page__heading heading-teams">mark waugh</h3>
                     <p class="page__text text-teams">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
-                    <a class="team__selected-link" href="#">Facebook</a>
-                    <a class="team__selected-link" href="#">Dribble</a>
-                    <a class="team__selected-link" href="#">Behance</a>
-                    <a class="team__selected-link" href="#">Twiter</a>
+                    <div class="team__link">
+                        <a class="team__selected-link" href="#">Facebook</a>
+                        <a class="team__selected-link" href="#">Dribble</a>
+                        <a class="team__selected-link" href="#">Behance</a>
+                        <a class="team__selected-link" href="#">Twiter</a>
+                   </div>
                 </div>
                 <div class="members">
                     <article class="member">
@@ -137,9 +139,40 @@
             <p class="page__text text-subscribe">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
         </div>
         <form class="forma container" action="#" method="post">
-            <input class="forma__input" id="email" type="email" placeholder="Email Address...">
+            <input class="forma__input" type="email" id="email" placeholder="Email Address..." required>
             <button class="forma__button button" type="submit">subscribe</button>
         </form>
+    </section>
+    <section class="page__touch">
+        <div class="content content_touch">
+            <h2 class="page__heading heading-touch">get in touch</h2>
+            <p class="page__text text-touch">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+        </div>
+        <div class="inform">     
+            <form class="message" action="#" method="post">
+                <input class="message__input input-name" type="text" id="name" placeholder="Type your message" required>
+                <input class="message__input input-your" type="email" id="mail" placeholder="Your Mail" required>
+                <textarea class="message__input input-type" name="message" cols="30" rows="5" placeholder="Type your message"></textarea>
+                <button class="message__button button" type="submit">Send message</button>
+            </form>
+            <div class="contact">
+                <h2 class="contact__heading">contact info</h2>
+                <address class="contact__text">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</address>
+                <address class="contact__text">redwan&commat;deviserweb.com</address>
+                <address class="contact__text">(+88) 017 617 46373</address>
+            </div>
+        </div>
+    </section>
+    <section class="page__footer">
+        <div class="footer container">
+            <p class="page__text text-footer">&copy; Copyright &commat;Junaed 2016, All rights reserved.</p>
+            <div class="page__icon">
+                <a href="https://vk.com" class="icon" target="_blank"><img src="img/vk.svg" alt="vk"></a>
+                <a href="https://whatsapp.com/" class="icon" target="_blank"><img src="img/whatsapp.svg" alt="whatsapp"></a>
+                <a href="https://youtube.com/" class="icon" target="_blank"><img src="img/youtube.svg" alt="youtube"></a>
+                <a href="https://pinterest.com" class="icon" target="_blank"><img src="img/pinterest.svg" alt="pinterest"></a>
+            </div>
+        </div>
     </section>
 </body>
 </html>    
