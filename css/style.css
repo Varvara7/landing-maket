@@ -631,13 +631,14 @@
 
 .message {
     padding-left: 20px;
-    margin-right: 50px;
+    margin-right: 10px;
+    max-width: 834px;
 }
 
 .message__input {
     width: 100%;
     max-width: 734px;
-    padding: 0 25px;
+    padding: 0 50px;
     background-color: #E0E0E0;
     border: none;
     border-radius: 6px;
