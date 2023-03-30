@@ -645,7 +645,7 @@
     background-color: #E0E0E0;
     border: none;
     border-radius: 6px;
-    color: #000000;
+    color:  #000000;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -671,9 +671,6 @@
     resize: none;
     min-height: 252px;
     margin-bottom: 50px;
-}
-
-.input-type::placeholder {
     padding-top: 32px;
     font-family: 'Open Sans', sans-serif;
 }
