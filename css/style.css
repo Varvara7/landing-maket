@@ -421,6 +421,7 @@
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     align-self: start;
+    cursor: pointer;
 }
 
 .teams {
@@ -485,6 +486,7 @@
 .member {
     position: relative;
     margin-top: 18px;
+    cursor: pointer;
 }
 
 .member:not(:last-child) {
@@ -635,11 +637,11 @@
 .message__input {
     width: 100%;
     max-width: 734px;
-    padding: 0 50px;    
+    padding: 0 25px;
     background-color: #E0E0E0;
     border: none;
     border-radius: 6px;
-    color: #000000; 
+    color: #000000;
 }
 
 .message__input::placeholder {
