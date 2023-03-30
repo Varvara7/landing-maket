@@ -72,9 +72,7 @@
   
 *,
 *::after,
-*::before,
-*::placeholder {
-    color: #000000;
+*::before {
     box-sizing: border-box;
 }
 
@@ -574,6 +572,12 @@
     padding: 0 38px;
 }
 
+.forma__input::placeholder {
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2C2C2C;
+}
+
 .forma__button {
     text-transform: uppercase;
     font-weight: 700;
@@ -636,6 +640,10 @@
     border: none;
     border-radius: 6px;
     color: #000000; 
+}
+
+.message__input::placeholder {
+    color: #000000;
 }
 
 .input-name {
