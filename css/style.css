@@ -571,7 +571,7 @@
     border-radius: 6px;
     color: #2C2C2C;
     background-color: #FFFFFF;
-    padding-left: 38px;
+    padding: 0 38px;
 }
 
 .forma__button {
@@ -631,7 +631,7 @@
 .message__input {
     width: 100%;
     max-width: 734px;
-    padding-left: 50px;    
+    padding: 0 50px;    
     background-color: #E0E0E0;
     border: none;
     border-radius: 6px;
