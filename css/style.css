@@ -82,7 +82,7 @@
     width: 100%;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
@@ -572,9 +572,11 @@
     color: #2C2C2C;
     background-color: #FFFFFF;
     padding: 0 38px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .forma__input::placeholder {
+    font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #2C2C2C;
@@ -582,6 +584,7 @@
 
 .forma__button {
     text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     width: 218px;
     min-height: 82px;
@@ -643,17 +646,19 @@
     border: none;
     border-radius: 6px;
     color: #000000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .message__input::placeholder {
     color: #000000;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .input-name {
     max-width: 340px;
     min-height: 70px;
     margin-right: 52px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .input-your {
@@ -678,6 +683,7 @@
     max-width: 732px;
     border: none;
     min-height: 75px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #FF3B3B;
