@@ -759,6 +759,16 @@
 
 /*media*/
 @media (max-width: 466px) {
+    .team__link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input-name {
+        margin-right: 0;
+    }
+
     .footer {
         flex-direction: column;
     }
@@ -766,13 +776,17 @@
     .page__icon {
         margin-bottom: 30px;
     }
-
-    .input-name {
-        margin-right: 0;
-    }
 }
 
 @media (max-width: 615px) {
+    .page__intro__content {
+        text-align: center;
+    }
+
+    .page__intro {
+       justify-content: center;
+    }
+
     .page__intro__heading {
         font-size: 50px;
     }
@@ -780,6 +794,22 @@
     .page__intro__heading-big {
         letter-spacing: normal;
         word-wrap: break-word;
+    }
+
+    .button {
+        margin: 0 auto;
+    }
+
+   .page__text {
+        max-width: none;
+    }
+
+    .page__content {
+        text-align: center;
+    }
+
+    .page__services__info {
+        justify-content: center;
     }
 
     .service {
@@ -794,14 +824,35 @@
         justify-content: center;
     }
 
-    .team__link {
-        display: flex;
-        flex-wrap: wrap;
+    .content {
+        text-align: center;
+    }
+   
+    .content_team::after {
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .team__selected-photo {
         max-width: none;
         margin: 0;
+    }
+
+    .content-teams {
+        text-align: center;
+    }
+
+    .members {
+        justify-content: center;
+    }
+
+    .member {
+        margin-right: 18px;
+    }
+
+    .content_touch::after {
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
