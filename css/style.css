@@ -478,7 +478,7 @@
 .members {
     display: flex;
     align-items: flex-end;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -487,6 +487,7 @@
     position: relative;
     margin-top: 18px;
     cursor: pointer;
+    display: flex;
 }
 
 .member:not(:last-child) {
@@ -564,7 +565,8 @@
 .forma__input {
     display: flex;
     align-items: center;
-    flex: 0 1 600px;
+    width: 100%;
+    max-width: 600px;
     margin: 20px;
     min-height: 82px;
     border: none;
@@ -764,6 +766,10 @@
     .page__icon {
         margin-bottom: 30px;
     }
+
+    .input-name {
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 615px) {
@@ -792,6 +798,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    .team__selected-photo {
+        max-width: none;
+        margin: 0;
+    }
 }
 
 @media (max-width: 1219px) {
@@ -817,7 +828,6 @@
     }
     
     .contact {
-        padding: 82px;
         width: 100%;
     }
 }
