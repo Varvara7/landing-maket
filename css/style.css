@@ -569,7 +569,7 @@
     min-height: 82px;
     border: none;
     border-radius: 6px;
-    color: #2C2C2C;
+    color: #000000;
     background-color: #FFFFFF;
     padding: 0 38px;
     font-family: 'Open Sans', sans-serif;
@@ -609,7 +609,7 @@
 .content_touch {
   width: 100%;
   max-width: 1252px;
-  padding-left: 20px;
+  padding: 0 20px;
   margin: 0 auto 70px;
 }
 
@@ -633,8 +633,7 @@
 }
 
 .message {
-    padding-left: 20px;
-    margin-right: 10px;
+    padding: 0 20px;
     max-width: 834px;
 }
 
@@ -672,6 +671,7 @@
     min-height: 252px;
     margin-bottom: 50px;
     padding-top: 32px;
+    padding-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -688,8 +688,7 @@
 
 .contact {
     background-color: #2D2D2D;
-    padding-left: 82px;
-    padding-top: 142px;
+    padding: 142px 30px 118px 82px;
 }
 
 .contact__heading {
