@@ -675,6 +675,7 @@
     min-height: 252px;
     padding-top: 32px;
     padding-bottom: 20px;
+    margin-right: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -691,7 +692,7 @@
 
 .contact {
     background-color: #2D2D2D;
-    padding: 142px 30px 118px 82px;
+    padding: 141px 30px 118px 81px;
 }
 
 .contact__heading {
@@ -707,9 +708,10 @@
 .contact__text {
     color: #FFFFFF;
     width: 100%;
-    max-width: 316px;
-    margin-bottom: 30px;
+    max-width: 315px;
+    margin-bottom: 20px;
     font-style: normal;
+    line-height: 28px;
 }
 
 /*footer*/
