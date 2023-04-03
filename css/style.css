@@ -652,7 +652,10 @@
 
 .message__input {
     width: 100%;
-    max-width: 734px;
+    max-width: 340px;
+    min-height: 70px;
+    margin-right: 52px;
+    margin-bottom: 50px;
     padding: 0 50px;
     background-color: #E0E0E0;
     border: none;
@@ -666,17 +669,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.input-inform {
-    max-width: 340px;
-    min-height: 70px;
-    margin-right: 52px;
-    margin-bottom: 50px;
-}
-
 .input-type {
     resize: none;
+    max-width: 734px;
     min-height: 252px;
-    margin-bottom: 50px;
     padding-top: 32px;
     padding-bottom: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -858,7 +854,7 @@
         transform: translateX(-50%);
     }
 
-    .input-inform {
+    .message__input {
         margin-right: 0;
     }
 }
