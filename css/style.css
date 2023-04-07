@@ -259,7 +259,7 @@
     font-style: italic;
     font-weight: 600;
     font-size: 24px;
-    letter-spacing: 0.27px;
+    letter-spacing: 1px;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -346,7 +346,7 @@
     font-size: 22px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: 0.22px;
+    letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -385,7 +385,7 @@
 }
 
 .heading-team {
-    letter-spacing: 0.38px;
+    letter-spacing: 1px;
 }
 
 .text-team {
@@ -465,7 +465,7 @@
     font-style: italic;
     font-size: 18px;
     font-weight: 400;
-    letter-spacing: 0.9px;
+    letter-spacing: 1px;
     padding: 10px 38px 10px 0;
     color: #000000;
     text-decoration: none;
@@ -512,7 +512,7 @@
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
-    letter-spacing: 0.17px;
+    letter-spacing: 1px;
 }
 
 .member:hover > .member__name {
@@ -543,7 +543,7 @@
 }
 
 .heading-subscribe {
-    letter-spacing: 1.05px;
+    letter-spacing: 1px;
     text-transform: none;
     color: #FFFFFF;
 }
@@ -580,7 +580,7 @@
 .forma__input::placeholder {
     font-family: 'Open Sans', sans-serif;
     line-height: 24px;
-    letter-spacing: 0.4px;
+    letter-spacing: 1px;
     color: #2C2C2C;
 }
 
@@ -700,7 +700,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0.32px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -764,6 +764,10 @@
 
 /*media*/
 @media (max-width: 466px) {
+    .header__menu {
+        justify-content: center;
+    }
+
     .team__link {
         display: flex;
         flex-wrap: wrap;
@@ -874,6 +878,10 @@
         display: flex;
     }
 
+    .page__touch {
+        padding-bottom: 20px;
+    }
+
     .inform {
         flex-direction: column;
         width: 100%;
@@ -885,7 +893,7 @@
     }
 
     .message {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
     
     .contact {
