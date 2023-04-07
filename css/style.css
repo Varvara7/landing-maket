@@ -81,10 +81,10 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin: 0;
 }
 
 /*header*/
@@ -140,19 +140,19 @@
 .header__link {
     display: flex;  
     align-items: center;
-    margin: 0;
-    padding: 0 24px;
-    color:#E0E0E0;
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0 24px;
+    color:#E0E0E0;
 }
 
 .active-link {
     background-color: #FF3F40;
 }
 
-/*section 1*/
+/*section "page__header"*/
 
 .page__intro {
     display: flex;
@@ -169,13 +169,13 @@
 }
 
 .page__intro__heading {
-    margin: 0;
     font-style: italic;
     font-size: 60px;
     line-height: 72px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    margin: 0;
 }
 
 .page__intro__heading-big {
@@ -191,11 +191,11 @@
 .button {
     display: block;
     width: 227px;
-    color: #FFFFFF;
-    background-color:#FF2D2D; 
     font-size: 18px;
     text-decoration-line: none;
     text-align: center;
+    color: #FFFFFF;
+    background-color:#FF2D2D; 
     padding: 14px;   
     cursor: pointer;
     border-radius: 6px;    
@@ -216,7 +216,7 @@
     box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
 }
 
-/*section 2*/
+/*section "page__services"*/
 
 .page__services {
     display: flex;
@@ -235,7 +235,7 @@
     font-size: 42px;
     line-height: 55px;    
     text-transform: uppercase;
-    letter-spacing: 0.42px;
+    letter-spacing: 1px;
 }
 
 .learn {
@@ -293,7 +293,7 @@
     padding-bottom: 20px;
 }
 
-/*section 3*/
+/*section "page__products"*/
 
 .page__products {
     display: flex;
@@ -305,7 +305,7 @@
 }
 
 .heading-products {
-    letter-spacing: 0.38px;
+    letter-spacing: 1px;
 }
 
 .text-products {
@@ -342,13 +342,13 @@
 
 .filters__link {
     font-style: italic;
-    color: #000000;
     font-size: 22px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
+    color: #000000;
 }
 
 .filters__link:hover {
@@ -378,7 +378,7 @@
     transform: scale(1.1);
 }
 
-/*section 4*/
+/*section "page__team*/
 
 .page__team {
     padding-bottom: 100px;
@@ -466,9 +466,9 @@
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1px;
-    padding: 10px 38px 10px 0;
     color: #000000;
     text-decoration: none;
+    padding: 10px 38px 10px 0;
 }
 
 .team__selected-link:hover {
@@ -484,10 +484,10 @@
 }
 
 .member {
+    display: flex;
     position: relative;
     margin-top: 18px;
     cursor: pointer;
-    display: flex;
 }
 
 .member:not(:last-child) {
@@ -496,23 +496,23 @@
 
 .member__name {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
     visibility: hidden;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 38px;
-    margin: 0;
-    text-align: center;
-    opacity: 50%;
-    background-color: #000000;
     font-style: italic;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 38px; 
+    bottom: 0;
+    margin: 0;
+    opacity: 50%;
+    color: #FFFFFF;
+    background-color: #000000;
 }
 
 .member:hover > .member__name {
@@ -526,16 +526,16 @@
     object-fit: cover;
 }
 
-/*section 5*/
+/*section "page__subscribe"*/
 
 .page__subscribe {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    background-color: #2D2D2D;
     align-items: center;
     text-align: center;
+    background-color: #2D2D2D;
 }
 
 .subscribe {
@@ -567,14 +567,14 @@
     align-items: center;
     width: 100%;
     max-width: 600px;
-    margin: 20px;
     min-height: 82px;
+    font-family: 'Open Sans', sans-serif;
     border: none;
     border-radius: 6px;
     color: #000000;
     background-color: #FFFFFF;
+    margin: 20px;
     padding: 0 38px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .forma__input::placeholder {
@@ -585,32 +585,32 @@
 }
 
 .forma__button {
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     width: 218px;
     min-height: 82px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
     border: none;
     padding: 0;
 }
 
-/*section 6*/
+/*section "page__touch"*/
 
 .page__touch {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     padding-top: 90px;
     padding-bottom: 100px;
-    flex-direction: column;
     margin: auto;
 }
 
 .content_touch {
-  width: 100%;
-  max-width: 1252px;
-  padding: 0 20px;
-  margin: 0 auto 70px;
+    width: 100%;
+    max-width: 1252px;
+    padding: 0 20px;
+    margin: 0 auto 70px;
 }
 
 .content_touch::after {
@@ -646,8 +646,8 @@
   }
 
 .message {
-    padding: 0 20px;
     max-width: 834px;
+    padding: 0 20px;
 }
 
 .message__input {
@@ -655,38 +655,38 @@
     max-width: 340px;
     min-height: 70px;
     margin-right: 52px;
+    font-family: 'Open Sans', sans-serif;
+    color:  #000000;
+    background-color: #E0E0E0;
     margin-bottom: 50px;
     padding: 0 50px;
-    background-color: #E0E0E0;
     border: none;
     border-radius: 6px;
-    color:  #000000;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .message__input::placeholder {
-    color: #000000;
     font-family: 'Open Sans', sans-serif;
+    color: #000000;
 }
 
 .input-type {
+    font-family: 'Open Sans', sans-serif;
     resize: none;
     max-width: 734px;
     min-height: 252px;
     padding-top: 32px;
     padding-bottom: 20px;
     margin-right: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .message__button {
     width: 100%;
     max-width: 732px;
-    border: none;
     min-height: 75px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    border: none;
     background-color: #FF3B3B;
 }
 
@@ -696,22 +696,22 @@
 }
 
 .contact__heading {
-    color: #FFFFFF;
     font-size: 18px;
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: #FFFFFF;
     margin-bottom: 20px;
 }
 
 .contact__text {
-    color: #FFFFFF;
+    font-style: normal;
+    line-height: 28px;
     width: 100%;
     max-width: 315px;
     margin-bottom: 20px;
-    font-style: normal;
-    line-height: 28px;
+    color: #FFFFFF;
 }
 
 /*footer*/
@@ -732,8 +732,8 @@
 
 .text-footer {
     line-height: 26px;
-    color: #B8B8B8;
     margin: 20px;
+    color: #B8B8B8;
 }
 
 .page__icon {
