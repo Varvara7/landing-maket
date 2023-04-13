@@ -191,6 +191,8 @@
 .button {
     display: block;
     width: 227px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     text-decoration-line: none;
     text-align: center;
@@ -588,7 +590,6 @@
     min-height: 82px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
     border: none;
     padding: 0;
 }
@@ -683,7 +684,6 @@
     max-width: 732px;
     min-height: 75px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     text-transform: uppercase;
     border: none;
     background-color: #FF3B3B;
