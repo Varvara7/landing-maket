@@ -170,7 +170,7 @@
 
 .page__intro__heading {
     font-style: italic;
-    font-size: 60px;
+    font-size: clamp(50px, 10vw, 60px);
     line-height: 72px;
     font-weight: 800;
     text-transform: uppercase;
@@ -789,10 +789,6 @@
 
     .page__intro {
        justify-content: center;
-    }
-
-    .page__intro__heading {
-        font-size: 50px;
     }
 
     .page__intro__heading-big {
