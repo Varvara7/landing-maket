@@ -323,7 +323,7 @@
     width: 100%;
     max-width: 134px;
     content: '';
-    border-bottom: 1px solid #FF2D2D;
+    border-bottom: 2px solid #FF2D2D;
     left: 50%;
     transform: translate(-50%);
 }
@@ -510,9 +510,8 @@
     height: 38px; 
     bottom: 0;
     margin: 0;
-    opacity: 50%;
     color: #FFFFFF;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .member:hover > .member__name {
@@ -720,7 +719,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #313030;
+    background-color: #2D2D2D;
 }
 
 .footer {
@@ -862,6 +861,7 @@
 
     .message__input {
         margin-right: 0;
+        max-width: none;
     }
 }
 
@@ -879,7 +879,7 @@
     }
 
     .page__touch {
-        padding-bottom: 20px;
+        padding-bottom: 0;
     }
 
     .inform {
