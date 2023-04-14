@@ -87,7 +87,7 @@
     margin: 0;
 }
 
-/*header*/
+/*header intro*/
 
 .page__header {
     display: flex;
@@ -152,8 +152,6 @@
     background-color: #FF3F40;
 }
 
-/*section "page__header"*/
-
 .intro {
     display: flex;
     flex-wrap: wrap;
@@ -180,6 +178,7 @@
 
 .intro__heading-big {
     letter-spacing: 6px;
+    word-wrap: break-word;
 }
 
 .page__text {
@@ -514,11 +513,11 @@
     margin: 0;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .member:hover > .member__name {
     visibility: visible;
-    cursor: pointer;
 }
 
 .member__photo {
@@ -789,11 +788,6 @@
         text-align: center;
     }
     
-    .intro__heading-big {
-        letter-spacing: normal;
-        word-wrap: break-word;
-    }
-
     .button {
         margin: 0 auto;
     }
