@@ -154,7 +154,7 @@
 
 /*section "page__header"*/
 
-.page__intro {
+.intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -162,13 +162,13 @@
     padding-top: 90px;
 }
 
-.page__intro__content {    
+.intro__content {    
     width: 100%;
     max-width: 618px;
     padding-bottom: 50px;
 }
 
-.page__intro__heading {
+.intro__heading {
     font-style: italic;
     font-size: clamp(50px, 10vw, 60px);
     line-height: 72px;
@@ -178,7 +178,7 @@
     margin: 0;
 }
 
-.page__intro__heading-big {
+.intro__heading-big {
     letter-spacing: 6px;
 }
 
@@ -200,15 +200,15 @@
     background-color:#FF2D2D; 
     padding: 14px;   
     cursor: pointer;
-    border-radius: 6px;    
+    border-radius: 6px;
+    transition: transform 0.3s ease-out;    
 }
 
 .button:hover {
-    transition: all 0.2s;
     transform: scale(1.1);
 }
 
-.page__intro__video {
+.intro__video {
     width: 100%;
     max-width: 551px;
     margin-top: 10px;
@@ -240,13 +240,13 @@
     letter-spacing: 0.42px;
 }
 
-.learn {
+.button_learn {
     color: #FF2D2D;    
     background-color: #FFFFFF;
     border: 2px solid #FF0000;
 }
 
-.page__services__info {
+.services {
     display: flex;
     flex-wrap: wrap;       
 }
@@ -372,11 +372,11 @@
     height: 294px;
     object-fit: cover;
     padding: 8px 10px 8px 10px;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
 }
 
 .products__foto:hover {
-    cursor: pointer;
-    transition: all 0.3s;
     transform: scale(1.1);
 }
 
@@ -585,10 +585,9 @@
     color: #2C2C2C;
 }
 
-.forma__button {
+.button_forma {
     width: 218px;
     min-height: 82px;
-    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     border: none;
     padding: 0;
@@ -679,11 +678,10 @@
     margin-right: 0;
 }
 
-.message__button {
+.button_message {
     width: 100%;
     max-width: 732px;
     min-height: 75px;
-    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     border: none;
     background-color: #FF3B3B;
@@ -752,11 +750,11 @@
     padding: 6px;
     border: none;
     cursor: pointer;
+    transition: 0.3s ease-out;
 }
 
 .icon:hover {
     border-radius: 6px;
-    transition: all 0.1s;
     transform: scale(1.2);
 }
 
@@ -783,15 +781,15 @@
 }
 
 @media (max-width: 615px) {
-    .page__intro__content {
+    .intro {
+        justify-content: center;
+     }
+
+    .intro__content {
         text-align: center;
     }
-
-    .page__intro {
-       justify-content: center;
-    }
-
-    .page__intro__heading-big {
+    
+    .intro__heading-big {
         letter-spacing: normal;
         word-wrap: break-word;
     }
@@ -808,7 +806,7 @@
         text-align: center;
     }
 
-    .page__services__info {
+    .services {
         justify-content: center;
     }
 
