@@ -770,6 +770,15 @@
         justify-content: center;
     }
 
+    .member {
+        margin: 10px 0 10px 18px;
+    }
+
+    .member__photo {
+        width: 250px;
+        height: 280px;
+    }
+
     .footer {
         flex-direction: column;
     }
