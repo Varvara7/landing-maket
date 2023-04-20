@@ -21,31 +21,3 @@ function hidePopup(el) {
     }
 }
 
-/*
-
-const menuButton = document.querySelector('.header__toggle');
-const menuWrapper = document.querySelector('.header');
-const menuList = document.querySelector('.header__menu')
-
-
-menuButton.addEventListener('click', toggleMenu);
-
-
-function toggleMenu () {
-    menuList.classList.toggle('opened');
-}
-
-
-document.addEventListener('click', closeMenu);
-
-function closeMenu(evt) {
-    let insideMenu = menuWrapper.contains(evt.target);
-    if (!insideMenu) {
-        menuList.classList.remove('opened');
-    }
-    else {
-        return
-    }
-}*/
-
-

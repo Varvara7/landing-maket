@@ -811,13 +811,13 @@
 
 .popup-menu__button {
     display: none;
-    padding: 0;
     min-width: 50px;
     height: 50px;
+    padding: 0;
     background-image: url(../img/menu_burger.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #E0E0E0;
+    background-color:  #313030;
     border: none;
 }
 
@@ -827,32 +827,32 @@
 }
 
 .header__menu {
+    width: 1px;
     height: 1px;
     overflow: hidden;
-    width: 1px;
 }
 
 .popup-menu {
+    display: flex;
     position: relative;
     align-self: center;
-    display: flex;
-    justify-content: center;
 }
 
 .popup-menu__list {
-    visibility: visible;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(100%);
-    min-width: 140px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: absolute;
+    visibility: visible;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 150px;
     align-items: stretch;
     list-style: none;
+    background-color: #2D2D2D;
+    border: 1px solid #ECECEC;
     padding: 0;
     margin: 0;
-    background-color: #2C2C2C;
 }
 
 .hide-popup {
@@ -874,12 +874,12 @@
 .popup-menu__link {
     display: flex;
     align-items: center;
-    padding: 0 10px;
-    color: #F6F2F2;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
-    text-transform: uppercase ;
+    text-transform: uppercase;
+    color: #ECECEC;
+    padding: 0 10px;
 }
 
 }
