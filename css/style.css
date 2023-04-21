@@ -764,6 +764,9 @@
 }
 
 /*POPUP*/
+.popup-menu {
+    display: none;
+}
 
 .popup-menu__button {
     display: none;
