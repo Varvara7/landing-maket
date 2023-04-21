@@ -821,7 +821,11 @@
     border: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+.header {
+    justify-content: flex-start;
+} 
+
 .popup-menu__button {
     display: block;
 }
@@ -846,7 +850,7 @@
     visibility: visible;
     bottom: 0;
     transform: translateY(100%);
-    width: 150px;
+    width: 200px;
     align-items: stretch;
     list-style: none;
     background-color: #2D2D2D;
