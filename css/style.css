@@ -114,7 +114,7 @@ html {
 
 .header { 
     position: fixed;
-    top: 0px;
+    top: 30px;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -319,8 +319,8 @@ html {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 120px;
+    
 }
 
 .heading-products {
@@ -400,6 +400,7 @@ html {
 /*section "page__team*/
 
 .page__team {
+    padding-top: 120px;
     padding-bottom: 100px;
 }
 
@@ -822,6 +823,12 @@ html {
 
     .header__item {
         min-height: 90px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .header {
+        top: 0;
     }
 }
 
